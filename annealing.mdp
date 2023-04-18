@@ -5,7 +5,7 @@ init_step                = 0
 simulation_part          = 1
 comm-mode                = Linear
 nstcomm                  = 1
-comm-grps                = system
+comm-grps                = System
 
 
 nstxout                  = 5
@@ -32,7 +32,7 @@ rvdw                     = 1.0
 
 tcoupl                   = v-rescale
 nh-chain-length          = 10
-tc-grps                  = system
+tc-grps                  = System
 tau-t                    = 0.1
 ref-t                    = 300
 
@@ -40,7 +40,7 @@ gen-vel                  = no
 gen-temp                 = 300
 gen-seed                 = 173529
 
-constraints              = h-bonds
+constraints              = H-bonds
 constraint-algorithm     = Lincs
 
 ; Annealing options below (EDIT THESE!):
